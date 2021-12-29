@@ -38,7 +38,6 @@ export function CartProvider({ children }: CartProviderProps): JSX.Element {
       if(cart.find(product=> product.id === productId)){
         const cartAtt:Product[] = cart.map((element) => {
           if(element.id===productId){
-            
             element.amount = element.amount + 1
             return element
           } 
@@ -49,7 +48,6 @@ export function CartProvider({ children }: CartProviderProps): JSX.Element {
         data.amount = 1
         setCart(cart=>[...cart, data]) 
       }
-
       localStorage.setItem('@RocketShoes:cart', JSON.stringify(cart))
       
     } catch { 
@@ -59,7 +57,11 @@ export function CartProvider({ children }: CartProviderProps): JSX.Element {
 
   const removeProduct = (productId: number) => {
     try {
-      // TODO
+      console.log('removeProduct');
+      
+      setCart(
+        cart.filter(product =>  product.id !== productId)        
+      )
     } catch {
       // TODO
     }
@@ -70,7 +72,15 @@ export function CartProvider({ children }: CartProviderProps): JSX.Element {
     amount,
   }: UpdateProductAmount) => {
     try {
-      // TODO
+      setCart(
+        cart.map((product) => {
+          if(product.id === productId){
+            product.amount = amount
+            return product
+          }
+          return product
+        })
+      )
     } catch {
       // TODO
     }
