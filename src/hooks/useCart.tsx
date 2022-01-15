@@ -57,11 +57,10 @@ export function CartProvider({ children }: CartProviderProps): JSX.Element {
 
   const removeProduct = (productId: number) => {
     try {
-      console.log('removeProduct');
-      
       setCart(
         cart.filter(product =>  product.id !== productId)        
       )
+      localStorage.setItem('@RocketShoes:cart', JSON.stringify(cart))
     } catch {
       // TODO
     }
@@ -81,6 +80,7 @@ export function CartProvider({ children }: CartProviderProps): JSX.Element {
           return product
         })
       )
+      localStorage.setItem('@RocketShoes:cart', JSON.stringify(cart))
     } catch {
       // TODO
     }
