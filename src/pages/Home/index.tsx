@@ -34,7 +34,6 @@ const Home = (): JSX.Element => {
   useEffect(() => {
     async function loadProducts() {
 
-      // Deve buscar os produtos da Fake API e formatar o preço utilizando o helper utils/format
       const {data} = await api.get('products');
 
       const dataProducts = data.map((product:Product) => {
