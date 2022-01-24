@@ -41,6 +41,7 @@ export function CartProvider({ children }: CartProviderProps): JSX.Element {
         
         
         if(cart.find(product=> product.id === productId)){
+
           const cartAtt:Product[] = cart.map((element) => {
             if(element.id===productId){
 
@@ -55,11 +56,21 @@ export function CartProvider({ children }: CartProviderProps): JSX.Element {
           }) 
           setCart(cartAtt);
 
+
         }else{
+
           newProduct.amount = 1
+
           setCart(cart=>[...cart, newProduct]) 
+
+          console.log('cart',cart);
+          console.log('[...cart, newProduct]',[...cart, newProduct]);
+          console.log('newProduct',newProduct);
+          
         }
         localStorage.setItem('@RocketShoes:cart', JSON.stringify(cart))
+  
+
         
       } catch { 
         toast.error('Erro na adição do produto');
