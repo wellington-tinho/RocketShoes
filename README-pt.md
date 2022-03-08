@@ -1,5 +1,5 @@
-##### Select Language: **Portuguese**, [English](https://github.com/wrtinho/RocketShoes)
-========
+#### Select Language: **Portuguese**, [English](https://github.com/wrtinho/RocketShoes)
+
 
 <p align="center">
   <img src=".github/logo.svg" alt="RocketShoes logo" />
@@ -9,13 +9,16 @@
 
 
 [![Author](https://img.shields.io/badge/author-wrtinho-8257E5?style=flat-square)](https://github.com/wrtinho)
-[![Languages](https://img.shields.io/github/languages/count/wrtinho/RocketShoes?color=%238257E5&style=flat-square)](#)
+
 
 <h4 align="center">
   RocketShoes - Criando um hook de carrinho de compras - Desafio Ignite
 </h4>
 
-![ RocketShoes preview](.github/app-preview.png)
+
+![ RocketShoes preview](.github/app-preview.gif)
+
+
 
 
 ## Tecnologias
