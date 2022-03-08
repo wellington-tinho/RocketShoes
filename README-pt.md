@@ -25,7 +25,7 @@
 
 <p align="center">
   <br />
-  <img src="./github/tecs-used.png" width="140px"  alt="Technologies used"/>
+  <img src="./.github/tecs-used.png" width="140px"  alt="Technologies used"/>
 </p>
 
 Este projeto foi desenvolvido utilizando as tecnologias front-end: 
