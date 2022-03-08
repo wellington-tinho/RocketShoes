@@ -1,5 +1,5 @@
-##### Select Language: **English**, [Portuguese](https://github.com/wrtinho/RocketShoes/blob/main/README-pt.md)
-========
+#### Select Language: **English**, [Portuguese](https://github.com/wrtinho/RocketShoes/blob/master/README-pt.md)
+
 
 <p align="center">
   <img src=".github/logo.svg" alt="RocketShoes logo" />
@@ -15,7 +15,8 @@
   RocketShoes - Ignite challenge - creating a shopping cart hook
 </h4>
 
-![ RocketShoes preview](.github/app-preview.png)
+![ RocketShoes preview](.github/app-preview.gif)
+
 
 
 ## Tecnologies
