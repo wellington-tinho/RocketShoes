@@ -69,9 +69,9 @@ const Cart = (): JSX.Element => {
         </thead>
         <tbody>
           {
-            cartFormatted.map((product,i) => {
+            cartFormatted.map((product) => {
               return(
-                <tr key={i} data-testid="product">
+                <tr key={product.id} data-testid='product'>
                   <td>
                     <img src={product.image} alt={product.title} />
                   </td>
@@ -110,7 +110,7 @@ const Cart = (): JSX.Element => {
                   <td>
                     <button
                       type="button"
-                      data-testid="remove-product"
+                      data-testid='remove-product'
                     onClick={() => handleRemoveProduct(product.id)}
                     >
                       <MdDelete size={20} />
