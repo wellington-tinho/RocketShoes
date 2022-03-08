@@ -9,7 +9,6 @@
 
 
 [![Author](https://img.shields.io/badge/author-wrtinho-8257E5?style=flat-square)](https://github.com/wrtinho)
-[![Languages](https://img.shields.io/github/languages/count/wrtinho/RocketShoes?color=%238257E5&style=flat-square)](#)
 
 <h4 align="center">
   RocketShoes - Ignite challenge - creating a shopping cart hook
