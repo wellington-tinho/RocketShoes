@@ -2,10 +2,10 @@ import axios from 'axios';
 
 var API
 if (process.env.NODE_ENV !== 'production') {
-  baseURL = 'http://localhost:3333'
+  baseURL = 'http://localhost:3333/'
   
 } else {
-  baseURL = ('https://rocketshoes.luizbatanero.vercel.app/products')
+  baseURL = ('https://rocketshoes.luizbatanero.vercel.app/')
   
 }
 
