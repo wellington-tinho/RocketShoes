@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-var API
+var baseURL
 if (process.env.NODE_ENV !== 'production') {
   baseURL = 'http://localhost:3333/'
   
@@ -10,10 +10,10 @@ if (process.env.NODE_ENV !== 'production') {
 }
 
 export const api = axios.create({
-  baseURL: API,
+  baseURL: baseURL,
 })
 
 api.get('/')
-.then(response => console.info(response.data))
-.catch((err) => console.warn('Não foi possivel se conectar com a API, \n\n',err)
+  .then(response => console.info(response.data))
+  .catch((err) => console.warn('Não foi possivel se conectar com a API, \n\n',err)
 )
