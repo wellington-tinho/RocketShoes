@@ -8,7 +8,7 @@
 ## RocketShoes
 
 
-[![Author](https://img.shields.io/badge/author-wellington-tinho-8257E5?style=flat-square)](https://github.com/wellington-tinho)
+[![Author](https://img.shields.io/badge/author--wellington-tinho-8257E5?style=flat-square)](https://github.com/wellington-tinho)
 
 <h4 align="center">
   RocketShoes - Ignite challenge - creating a shopping cart hook
