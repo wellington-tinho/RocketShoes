@@ -1,4 +1,4 @@
-#### Select Language: **English**, [Portuguese](https://github.com/wrtinho/RocketShoes/blob/master/README-pt.md)
+#### Select Language: **English**, [Portuguese](https://github.com/wellington-tinho/RocketShoes/blob/master/README-pt.md)
 
 
 <p align="center">
@@ -8,7 +8,7 @@
 ## RocketShoes
 
 
-[![Author](https://img.shields.io/badge/author-wrtinho-8257E5?style=flat-square)](https://github.com/wrtinho)
+[![Author](https://img.shields.io/badge/author-wellington-tinho-8257E5?style=flat-square)](https://github.com/wellington-tinho)
 
 <h4 align="center">
   RocketShoes - Ignite challenge - creating a shopping cart hook
@@ -40,7 +40,7 @@ This project was developed using cutting edge front-end technologies.
 **Clone the project and access the folder**
 
 ```bash
-$ git clone https://github.com/wrtinho/RocketShoes && cd RocketShoes
+$ git clone https://github.com/wellington-tinho/RocketShoes && cd RocketShoes
 ```
 
 **Follow the steps below**
